@@ -14,7 +14,7 @@ def main():
 
     while True:
         if turn > 6:
-            print("Oops...")
+            print(f"Oops... The answer is '{answer}'")
             return
 
         print(f"What is the word? (turn {turn}/6):")
